@@ -1,4 +1,4 @@
-- name: Print hello wrold
+- name: Print hello world
   hosts: local
   connection: local
   tasks:
