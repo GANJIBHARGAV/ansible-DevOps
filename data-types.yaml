@@ -1,0 +1,18 @@
+- name: Datatypes playbook
+  hosts: local
+  connection: local
+  vars:
+   duration: 120
+   course: "DevOps with AWS"
+   trainer: "Sivakumar"
+   tools: # List []
+   - docker
+   - kubernates
+   - Github
+   concepts: # these are map or dictionary or objects {}
+    CI: Jenkins
+    Scripts: "Python, shell, terraform, ansible"
+  tasks:
+  - name: Tasks of data-types
+    ansible.builtin.debug:
+     msg: "Duration is: {{ duration }}, course is: {{ course }}, trainer is: {{ trainer }}"   
