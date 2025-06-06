@@ -16,4 +16,4 @@
   - name: Tasks of data-types
     ansible.builtin.debug:
      msg: "Duration is: {{ duration }}, course is: {{ course }}, trainer is: {{ trainer }},
-       tools are: {{ concepts }}, concepts are: {{ CI }} and {{ scripts }}"   
+       tools are: {{ tools }}, concepts are: {{ concepts }}"   
