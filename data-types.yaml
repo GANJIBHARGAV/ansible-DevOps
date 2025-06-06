@@ -11,8 +11,9 @@
    - Github
    concepts: # these are map or dictionary or objects {}
     CI: Jenkins
-    Scripts: "Python, shell, terraform, ansible"
+    scripts: "Python, shell, terraform, ansible"
   tasks:
   - name: Tasks of data-types
     ansible.builtin.debug:
-     msg: "Duration is: {{ duration }}, course is: {{ course }}, trainer is: {{ trainer }}"   
+     msg: "Duration is: {{ duration }}, course is: {{ course }}, trainer is: {{ trainer }},
+       tools are: {{ concepts }}, concepts are: {{ CI }} and {{ scripts }}"   
